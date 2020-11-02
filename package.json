@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --watch scss/main.scss css/style.css",
+    "sass": "node-sass scss/main.scss css/style.css && node-sass --watch scss/main.scss css/style.css",
     "dev": "concurrently live-server \"npm run sass\"",
     "build": "node-sass scss/main.scss css/style.css && postcss css/style.css --replace"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "concurrently": "^5.3.0",
     "live-server": "^1.2.1",
     "node-sass": "^5.0.0"
