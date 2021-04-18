@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    &__img {
+        height: 50px;
+        margin: 10px;
+    }
+
+    &__ul {
+        display: none;
+    }
+}
