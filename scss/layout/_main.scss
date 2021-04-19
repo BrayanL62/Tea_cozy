@@ -1,0 +1,16 @@
+.carte {
+    display: flex;
+    flex-direction: column;
+
+    &__expo {
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    &__pics {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}
