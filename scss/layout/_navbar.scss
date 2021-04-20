@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid seashell;
     height: 70px;
     position: fixed;
@@ -7,13 +8,32 @@
     width: 100%;
     background-color: black;
     z-index: 2;
+    transition: all 500ms ease;
 
     &__img {
         height: 50px;
         margin: 10px;
     }
 
-    &__ul {
+    &--btn {
+        width: 70px;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    &__ulHidden {
         display: none;
+    }
+    &__li {
+        display: inline-block;
+        margin: 0 7px;
+    }
+    &--link {
+        text-decoration: none;
+        color: seashell;
     }
 }

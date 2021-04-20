@@ -1,0 +1,36 @@
+.locations {
+    background: url('../Tea_Cozy/img-locations-background.webp') center;
+    padding: 20px 0;
+
+    &__title {
+        text-align: center;
+        margin: 10px auto;
+        padding-top: 20px;
+    }
+
+    &__address {
+        text-align: center;
+        margin: 10px auto;
+        font-size: .6em;
+    }
+    &__town {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: black;
+        opacity: 1;
+        margin: 20px auto;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    padding-top: 30px;
+
+    &__information {
+        margin: 20px auto;
+    }
+}
