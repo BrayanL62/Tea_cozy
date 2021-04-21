@@ -1,10 +1,38 @@
+@media screen and (min-width: 600px) {
+    .navbar--btn {
+        display: none;
+    }
+    
+    .navbar__ulHidden {
+        display: initial;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+}
+
 @media screen and (min-width: 700px) {
     
+    
+
     .header {
         
+        font-size: 1.2em;
+
         &__h4 {
             padding: 10px 0;
             font-size: 1em;
         }
     }
+
+    #featured_tea {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .carte {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
+
