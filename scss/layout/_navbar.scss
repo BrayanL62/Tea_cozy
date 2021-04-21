@@ -16,13 +16,18 @@
     }
 
     &--btn {
-        width: 70px;
-        height: 40px;
+        width: 30x;
+        height: 33px;
         position: absolute;
         right: 10px;
-        top: 15px;
-        background-color: black;
+        top: 20px;
+        background-color: seashell;
         cursor: pointer;
+        border-radius: 5px;
+    }
+
+    &__menu {
+        height: 30px;
     }
 
     &__ulHidden {
