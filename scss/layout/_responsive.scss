@@ -12,9 +12,6 @@
 }
 
 @media screen and (min-width: 700px) {
-    
-    
-
     .header {
         
         font-size: 1.2em;
@@ -36,3 +33,36 @@
     }
 }
 
+@media screen and (min-width: 900px) {
+    .locations {
+        height: 500px;
+        width: 900px;
+        margin: auto;
+
+        &__town {
+            margin: 70px 30px;
+        }
+
+        &--flex {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .header {
+        font-size: 1.5em;
+    }
+    
+    #featured_tea {
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+}
+@media screen and (min-width: 1370px){
+    .header {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
